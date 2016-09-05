@@ -1,0 +1,18 @@
+﻿body {
+    background: rgb(225,245,254);
+}
+.ptw-card-wide.mdl-card {
+    width: 550px;
+    margin: 0 auto;
+}
+.ptw-card-wide > .mdl-card__title {
+    height: 170px;
+}
+.ptw-text-shadow {
+    text-shadow: rgb(0, 0, 0) 2px 2px 3px;
+}
+@media screen and (max-width: 850px) {
+    .mdl-layout__container {
+        position: static;
+    }
+}

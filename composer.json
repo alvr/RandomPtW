@@ -1,0 +1,9 @@
+{
+    "require": {
+        "twig/twig": "~1.0",
+        "symfony/dom-crawler": "^3.1"
+    },
+    "require-dev": {
+        "heroku/heroku-buildpack-php": "*"
+    }
+}

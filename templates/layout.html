@@ -1,0 +1,37 @@
+<!doctype html>
+{% spaceless %}
+<html lang="en">
+<head>
+    <title>RandomPtW</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+    <link rel="stylesheet" href="/assets/css/material.css">
+    <link rel="stylesheet" href="/assets/css/custom.css">
+    <script defer src="/assets/js/jquery-3.1.0.min.js"></script>
+    <script defer src="/assets/js/material.js"></script>
+    <script defer src="/assets/js/jquery.scrollintoview.min.js"></script>
+    <script defer src="/assets/js/base.js"></script>
+</head>
+<body>
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-color--light-blue-50">
+    <header class="mdl-layout__header mdl-layout__header--scroll">
+        <div class="mdl-layout__header-row">
+            <span class="mdl-layout-title">RandomPtW</span>
+        </div>
+    </header>
+    <main class="mdl-layout__content">
+        <div class="page-content">
+            <div class="mdl-grid">
+                {% block content %}{% endblock %}
+            </div>
+            <div class="mdl-grid">
+                {% block result %}{% endblock %}
+            </div>
+        </div>
+    </main>
+</div>
+</body>
+</html>
+{% endspaceless %}

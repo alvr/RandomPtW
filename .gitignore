@@ -1,0 +1,7 @@
+### IntelliJ ###
+*.iml
+.idea/
+
+### Composer ###
+composer.phar
+/vendor/
